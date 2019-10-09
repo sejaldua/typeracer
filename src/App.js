@@ -121,7 +121,7 @@ class App extends React.Component {
 		if (!started)
 			return (
 				<div className='container'>
-					<h2>Welcome to the Typing game</h2>
+					<h2>Welcome to Typeracer (React)!</h2>
 					<p>
 						<strong>Rules:</strong> <br />
 						Type in the input field the highlighted word. <br />
@@ -130,7 +130,7 @@ class App extends React.Component {
 						Incorrect letters will turn <span className='red'>red</span>.
 						<br />
 						<br />
-						Have fun! 😃
+						Good luck!
 					</p>
 					<button className='start-btn' onClick={this.startGame}>
 						Start game
